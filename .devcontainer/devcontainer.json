@@ -1,8 +1,8 @@
 {
-  "name": "Python + Jupyter",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
+  "name": "Codespaces + Jupyter + MongoDB",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
   "forwardPorts": [8888, 27017],
   "customizations": {
     "vscode": {

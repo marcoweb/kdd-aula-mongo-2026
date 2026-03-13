@@ -1,8 +1,5 @@
 {
   "python.defaultInterpreterPath": "/usr/local/bin/python",
   "python.terminal.activateEnvironment": true,
-  "jupyter.askForKernelRestart": false,
-  "files.exclude": {
-    "**/__pycache__": true
-  }
+  "jupyter.askForKernelRestart": false
 }
